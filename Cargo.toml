@@ -1,0 +1,13 @@
+[package]
+name = "test-sui-client"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sui-sdk = { git = "https://github.com/MystenLabs/sui"}
+sui-types = { git = "https://github.com/MystenLabs/sui"}
+sui-json-rpc-types = { git = "https://github.com/MystenLabs/sui"}
+
+tokio = "1.27.0"
